@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 h1,
@@ -1237,7 +1237,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #77f96b;
+  background: #742449;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,4 +2659,22 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("https://img.zcool.cn/community/01b35e5a38d9e0a801201a1f660c12.jpg@1280w_1l_2o_100sh.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
+  }
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
