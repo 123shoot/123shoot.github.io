@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #742449;
+  background: #6a12ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2662,14 +2662,18 @@ embed {
 }
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("https://img.zcool.cn/community/01b35e5a38d9e0a801201a1f660c12.jpg@1280w_1l_2o_100sh.jpg");
-    background-repeat: no-repeat;
+    background-image: url("https://img.zcool.cn/community/0171695a38d9e5a80121db80d241f0.jpg@1280w_1l_2o_100sh.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
   }
   #footer a {
     color: #eee;
   }
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.6;
 }
 .post {
   margin-top: 60px;
